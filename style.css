@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ring {
+    background: pink;
+    border: 1px solid black;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    font-size: 20px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+/* 
+#ring1 {
+    transform: rotateX(0deg) translateZ(150px);
+}
+#ring2 {
+    transform: rotateX(12deg) translateZ(150px);
+}
+#ring3 {
+    transform: rotateX(24deg) translateZ(150px);
+}
+#ring4 {
+    transform: rotateX(36deg) translateZ(150px);
+}
+#ring5 {
+    transform: rotateX(48deg) translateZ(150px);
+}
+#ring6 {
+    transform: rotateX(60deg) translateZ(150px);
+}
+#ring7 {
+    transform: rotateX(72deg) translateZ(150px);
+}
+#ring8 {
+    transform: rotateX(84deg) translateZ(150px);
+}
+#ring9 {
+    transform: rotateX(96deg) translateZ(150px);
+}
+#ring10 {
+    transform: rotateX(108deg) translateZ(150px);
+}
+#ring11 {
+    transform: rotateX(120deg) translateZ(150px);
+}
+#ring12 {
+    transform: rotateX(132deg) translateZ(150px);
+}
+#ring13 {
+    transform: rotateX(144deg) translateZ(150px);
+}
+#ring14 {
+    transform: rotateX(156deg) translateZ(150px);
+}
+#ring15 {
+    transform: rotateX(168deg) translateZ(150px);
+}
+#ring16 {
+    transform: rotateX(180deg) translateZ(150px);
+}
+#ring17 {
+    transform: rotateX(192deg) translateZ(150px);
+}
+#ring18 {
+    transform: rotateX(204deg) translateZ(150px);
+}
+#ring19 {
+    transform: rotateX(216deg) translateZ(150px);
+}
+#ring20 {
+    transform: rotateX(228deg) translateZ(150px);
+}
+#ring21 {
+    transform: rotateX(240deg) translateZ(150px);
+}
+#ring22 {
+    transform: rotateX(252deg) translateZ(150px);
+}
+#ring23 {
+    transform: rotateX(264deg) translateZ(150px);
+}
+#ring24 {
+    transform: rotateX(276deg) translateZ(150px);
+}
+#ring25 {
+    transform: rotateX(288deg) translateZ(150px);
+}
+#ring26 {
+    transform: rotateX(300deg) translateZ(150px);
+}
+#ring27 {
+    transform: rotateX(312deg) translateZ(150px);
+}
+#ring28 {
+    transform: rotateX(324deg) translateZ(150px);
+}
+#ring29 {
+    transform: rotateX(336deg) translateZ(150px);
+}
+#ring30 {
+    transform: rotateX(348deg) translateZ(150px);
+}
+ */
