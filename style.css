@@ -11,9 +11,14 @@ body {
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
     perspective: 1000px;
-    width: 100vw;
+    width: 200px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+#rotate {
+    width: 200px;
 }
 
 .ring {
@@ -23,13 +28,24 @@ body {
     line-height: 78px;
     width: 200px;
     position: absolute;
-    left: 350px;
     font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+
 }
 
 #go {
     margin-top: 250px;
+}
+
+#start-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#winner {
+    margin-top: 10px;
 }

@@ -25,16 +25,19 @@ function setMove(move) {
 let position = .01;
 let accelerate = .05;
 let destination = 180 * 7;
-
+let winner = '';
+let isSetWinner = false;
 var rollingInterval = null;
 
 document.getElementById('go').addEventListener('click', () => {
+    winner = document.getElementById('winner');
+    isSetWinner = false;
     rollingInterval = setInterval(rolling, 1);
 });
 
 function rolling() {
     let percentage = parseInt((position / destination) * 100);
-    console.log('position : ', position , 'accelerate : ', accelerate, 'percentage : ', percentage+'');
+    // console.log('position : ', position , 'accelerate : ', accelerate, 'percentage : ', percentage+'');
     setMove(position);
     // a = a +;
 
@@ -50,7 +53,12 @@ function rolling() {
                 position = position + accelerate;
                 accelerate = accelerate - 0.003;
             }
-           
+        }
+
+        if(percentage == 50 && isSetWinner != true) {
+            console.log('set winner :', winner.value);
+            setWinner(winner.value)
+            isSetWinner = true;
         }
 
     if(position >= destination) {
@@ -58,4 +66,8 @@ function rolling() {
         position = 0;
         console.log('clear interval')
     }
+}
+
+function setWinner(winnerName) {
+    document.getElementById(`ring7`).innerText = winnerName;
 }
